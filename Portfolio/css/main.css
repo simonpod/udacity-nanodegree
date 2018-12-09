@@ -1,0 +1,135 @@
+﻿/* document generic styling. TODO optimize images */
+
+body {
+	box-sizing: border-box;
+	font:12px/1.2 Avenir, Georgia, sans-seriff;
+}
+
+img {
+	height: auto;
+    width: 100%;
+}
+
+/* header styling */
+
+.header {
+	border-bottom: #7d97ad 5px solid;
+	min-height: 75px;
+	position:relative;
+}
+
+.top-logo {
+	display:inline-block;
+	margin-left: 5px;
+	width: 50px;
+}
+
+.header-content {
+	color: #2d3c49;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-title {
+	font-size: 2rem;
+	margin:inherit;
+ }
+
+.header-description {
+	float: right;
+	font-size: 0.9em;
+}
+
+/*nav styling*/
+
+.nav {
+	margin: 2em 0;
+	padding-left: 0;
+}
+
+ul.nav-list {
+	padding: 0;
+}
+
+.nav-list * {
+	display: inline;
+}
+
+.nav-item a {
+	background-color: #7d97ad;
+	box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+	color: #ffffff;
+	margin-right: 0.5rem;
+  	padding: 1em 1.2em;
+  	position: relative;
+  	text-decoration: none;
+ 	text-transform: uppercase;
+}
+
+.nav-item a:hover {
+  	cursor: pointer;
+}
+
+.nav-item a:active {
+  	box-shadow: none;
+ 	top: 5px;
+}
+
+/* hero content  */
+
+.hero-wrapper {
+	max-width: 60%;
+	position:absolute;
+	left: 1em;
+	top: 2em;
+}
+.hero-content {
+	background:url("../assets/ramon-salinero-271002-unsplash.jpg") no-repeat fixed center;
+	color: #ffff;
+	height: 20em;
+	position: relative;
+	top: 5px;
+	width: 100%;
+}
+
+.hero-title {
+	font-size: 2em;
+
+}
+.hero-description {
+		font: italic 0.9rem/1.6 Georgia, serif;
+}
+
+/* flexbox project tiles */
+
+.flexbox-container {
+	display: flex;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.container {
+	margin-bottom: 10px;
+	width:100%;
+}
+
+.project-title {
+	margin-top: 7px;
+}
+
+.project-title a {
+	color: #7D97AD;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+ .project-title a:hover {
+  	text-decoration: : underline;
+}
